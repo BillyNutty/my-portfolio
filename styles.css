@@ -1,0 +1,254 @@
+.about-me-section {
+  background-color: purple;
+  border: 2px solid grey;
+  padding-top: 30px;
+}
+
+.about-wrapper__info-text {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.light {
+  font-size: 2.7rem;
+  display: inline;
+  color: lime;
+}
+
+.grabber {
+  font-size: 25px;
+  color: yellow;
+}
+
+.greeting {
+  display: flex;
+  height: 80%;
+  /* margin-top: 50px; */
+  text-align: center;
+  color: black;
+  /* outline: black; */
+  text-decoration: underline;
+  opacity: 90%;
+  background-image: url(https://i.pinimg.com/originals/c0/86/4a/c0864a9fc47915c685e86df172c37b55.png);
+}
+
+.hero-title {
+  font-size: xx-large;
+}
+
+.hidden {
+  font-size: 21px;
+}
+
+.img-fluid {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title:hover {
+  text-decoration: green wavy underline;
+}
+
+.wm-img {
+  border-radius: 8px 100px;
+  /* filter: grayscale(100%); */
+  border: 5px solid black;
+}
+
+.btn-resume {
+  background-color: yellow;
+  color: black;
+  padding: 7px 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.live-btn {
+  background-color: lime;
+  color: black;
+  padding: 7px 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.src-btn {
+  background-color: red;
+  color: black;
+  padding: 7px 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 1%;
+  bottom: 73%;
+}
+
+.socicon {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  opacity: 35%;
+}
+
+.fa {
+  color: black;
+  margin: 20px;
+}
+
+.nav-container {
+  background-color: black;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  margin-right: 25px;
+  margin-bottom: 0;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.credit {
+  display: flex;
+  margin: 30px;
+  padding: 70px;
+  background-color: yellow;
+  border: 4px dotted black;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: end;
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 80%;
+  min-width: 200px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+form h3 {
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+  border: 2px solid black;
+  margin: 10px 0;
+  padding: 20px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+.formbtn {
+  height: 45px;
+  background-color: #4caf50;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 12px;
+}
+
+.form-submit {
+  background-color: lightgray;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.proj-img {
+  /* background-image: url(https://img.freepik.com/free-vector/white-background-with-3d-hexagonal-pattern-design_1017-28443.jpg?auto=format&h=200); */
+  background-image: url(https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png);
+}
+
+.row {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.nav-items:hover {
+  text-decoration: dotted underline;
+  cursor: alias;
+}
+
+.wm-img:hover {
+  filter: grayscale(1%);
+  transition: 0.7s;
+}
+
+.socicon:hover {
+  opacity: 100%;
+  cursor: alias;
+}
+
+.formbtn:hover {
+  background: lime;
+}
+
+.live-btn:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.src-btn:hover {
+  background-color: darkred;
+  color: white;
+}
+
+.btn-resume:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+footer {
+  background-color: #555;
+}
+
+@media (max-width: 991px), (min-width: 601px) {
+  .bingo {
+    margin-top: 20px;
+  }
+}
